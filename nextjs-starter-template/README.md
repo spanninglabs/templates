@@ -1,6 +1,6 @@
 # nextjs-starter-template
 
-This is a boot starter template or example app for Spanning Labs [Next.js](https://nextjs.org/) app. This project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a boot starter template or example app for Spanning Labs [Next.js](https://nextjs.org/) app in the existing mono-repo. This project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -15,9 +15,9 @@ cd <repo-home>/spanning/apps
 - Run the following command to create a new project with this Starter:
 
 ```
-yarn create next-app [project-name] -e git@github.com:spanninglabs/nextjs-starter-template.git
+yarn create next-app [project-name] -e https://github.com/spanninglabs/templates/tree/main/nextjs-starter-template
 # or
-npx create-next-app [project-name] -e git@github.com:spanninglabs/nextjs-starter-template.git
+npx create-next-app [project-name] -e https://github.com/spanninglabs/templates/tree/main/nextjs-starter-template
 ```
 
 - Change to project directory
@@ -26,10 +26,11 @@ npx create-next-app [project-name] -e git@github.com:spanninglabs/nextjs-starter
 cd [project-name]
 ```
 
-- Remove `.git` directory
+- Remove `.git` directory and `.gitignore` file
 
 ```
 rm -rf .git
+rm .gitignore
 ```
 
 - Update `name` in `package.json` with [project-name]
@@ -39,6 +40,8 @@ rm -rf .git
 ```
 
 - Clean up README.md
+
+- For using `apps_shared`, follow steps to [configure it](https://github.com/spanninglabs/spanning/tree/feature/ui_library/apps/apps_shared)
 
 - Run the development server:
 
