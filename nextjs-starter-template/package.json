@@ -1,0 +1,22 @@
+{
+  "name": "demo_app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier ./**/*.ts ./**/*.tsx",
+    "prettier:check": "prettier --check \"./**/*.{ts,tsx,js,jsx,css,scss,json,md}\"",
+    "prettier:fix": "prettier --write \"./**/*.{ts,tsx,js,jsx,css,scss,json,md}\""
+  },
+  "dependencies": {
+    "@fontsource/mulish": "^4.5.12",
+    "@fontsource/work-sans": "^4.5.11",
+    "@usedapp/core": "^0.12.9",
+    "prettier": "^2.7.1",
+    "underscore": "^1.13.4",
+    "amplitude-js": "^8.19.0"
+  }
+}
