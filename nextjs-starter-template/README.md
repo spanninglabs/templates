@@ -41,7 +41,7 @@ rm .gitignore
 
 - Clean up README.md
 
-- For using `apps_shared`, follow steps to [configure it](https://github.com/spanninglabs/spanning/tree/feature/ui_library/apps/apps_shared)
+- For using `apps_shared`, follow [steps to configure it](https://github.com/spanninglabs/spanning/tree/feature/ui_library/apps/apps_shared)
 
 - Run the development server:
 
